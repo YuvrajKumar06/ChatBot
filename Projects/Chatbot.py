@@ -11,8 +11,11 @@ from nltk import pos_tag, ne_chunk
 
 # Ensure the necessary nltk resources are downloaded
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('averaged_perceptron_tagger')
+nltk.download('averaged_perceptron_tagger_eng')
 nltk.download('maxent_ne_chunker')
+nltk.download('maxent_ne_chunker_tab')
 nltk.download('words')
 
 # Load responses from a file
